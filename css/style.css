@@ -26,7 +26,8 @@ img {
 .block {
     display: block;
     background-color: #849d8f;
-    min-width: 1200px;
+    min-width: 900px;
+	
     height: auto;
     background-image: url("../img/two-icecreams-01.png");
     background-repeat: no-repeat;
@@ -56,7 +57,9 @@ img {
 }
 
 .big-container {
-    width: 1200px;
+    width: 100%;
+	max-width: 1200px;
+	min-width: 900px;
     margin: 0 auto;
     padding-left: 27px;
     padding-right: 27px;
@@ -222,7 +225,7 @@ input[type="radio"].visually-hidden {
 }
 
 .blog {
-    width: 560px;
+    width: 48.8%;
     min-height: 221px;
     font-weight: 500;
     background-image: url("../img/strawberry-background2.jpg");
@@ -230,7 +233,7 @@ input[type="radio"].visually-hidden {
     background-repeat: no-repeat;
     background-color: rgb(255, 255, 255);
     border-radius: 15px;
-    margin-right: 26px;
+    margin-right: 2.3%;
     padding: 24px 20px;
 }
 
@@ -316,6 +319,10 @@ input[type="radio"].visually-hidden {
     margin-bottom: 26px;
 }
 
+.foto-price {
+	position: relative;
+}
+
 .foto-icecream {
     width: 266px;
     border-radius: 50%;
@@ -327,7 +334,7 @@ input[type="radio"].visually-hidden {
     text-shadow: 1px 1px 3px rgba(49, 50 ,53 , 0.5);
     font-weight: bold;
     position: absolute;
-    top: 216px;
+    top: 77%;
     left: 10px;
     margin: 0;
     z-index: 3;
@@ -398,7 +405,7 @@ input[type="radio"].visually-hidden {
 }
 
 .subscription {
-    width: 560px;
+    width: 48.8%;
     min-height: 221px;
     background-image: -webkit-repeating-linear-gradient(315deg, #f8f7f4 0px, #f8f7f4 5px, #91cdff 5px, #91cdff 10px, #f8f7f4 10px, #f8f7f4 15px, #fe9e90 15px, #fe9e90 20px);
     background-image: -o-repeating-linear-gradient(315deg, #f8f7f4 0px, #f8f7f4 5px, #91cdff 5px, #91cdff 10px, #f8f7f4 10px, #f8f7f4 15px, #fe9e90 15px, #fe9e90 20px);
@@ -438,7 +445,7 @@ input[type="radio"].visually-hidden {
     padding-left: 57px;
     padding-top: 13px;
     padding-bottom: 3px;
-    width: 535px;
+    width: 48.6%;
 }
 
 .desc-item-icecream {
@@ -1276,7 +1283,8 @@ textarea {
 }
 
 .sale div {
-    width: 560px;
+    width: 48.9%;
+	
     min-height: 229px;
     border-radius: 15px;
 }
@@ -1731,8 +1739,8 @@ textarea {
 
 .popular {
     position: absolute;
-    width: 61px;
-    height: 62px;
+    width: 21%;
+    height: 18%;
     left: 9px;
     background-image: url("../img/hit.svg");
     z-index: 3;
@@ -1963,7 +1971,7 @@ a.catalog-item-name:active {
 }
 
 .map-container {
-    width: 1200px;
+    max-width: 1200px;
     height: 430px;
     margin: 0 auto;
     position: relative;
